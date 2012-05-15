@@ -1,0 +1,76 @@
+/*!
+ * Custom rules
+ * 
+ */
+.extra-bottom-space {
+  margin-bottom: 20px;
+}
+.thumbnail.portfolio {
+  height: 400px;
+}
+.thumbnail.portfolio img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/**
+ * CURRICULUM VITÆ
+ */
+#experience-professionnelle article,
+#formations article {
+  margin: 10px 0 30px 0;
+}
+#experience-professionnelle article header,
+#formations article header {
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid #EEE;
+}
+#experience-professionnelle article header.no-border,
+#formations article header.no-border {
+  border: none;
+}
+/**
+ * PORTFOLIO
+ */
+#portfolio.carousel .carousel-inner .item img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#portfolio.carousel .carousel-inner .item .carousel-caption {
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.row.portfolio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row.portfolio article header {
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid #EEE;
+}
+.row.portfolio article .content h3 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.row.portfolio article .content p {
+  font-size: 12px;
+  text-align: justify;
+}
+.row.portfolio article.top-margin {
+  margin-top: 20px;
+}
+.row.portfolio img.screenshot {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.row.portfolio img.screenshot.left-margin {
+  margin-left: 50px;
+}

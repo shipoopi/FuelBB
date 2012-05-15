@@ -1,0 +1,28 @@
+# Logs #
+######################
+*.log
+*.gitkeep
+
+# OS generated files #
+######################
+*.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+
+# FuelPHP specific #
+######################
+*~
+*.bak
+.buildpath
+.project
+.settings
+fuel/app/logs/*/*/*
+fuel/app/cache/*/*
+fuel/app/config/development/db.php
+nbproject/
+.idea
+*.tmproj
+*.sublime-project
+*.sublime-workspace

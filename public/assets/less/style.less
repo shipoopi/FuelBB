@@ -1,0 +1,108 @@
+//@import url('bootstrap.less');
+//@import url('bootstrap-responsive.less');
+
+/*!
+ * Custom rules
+ * 
+ */
+.extra-bottom-space {
+	margin-bottom: 20px;
+}
+
+.thumbnail {
+	&.portfolio {
+		height: 400px;
+		
+		img {
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+	}
+}
+
+/**
+ * CURRICULUM VITÆ
+ */
+#experience-professionnelle,
+#formations {
+	article {
+		margin: 10px 0 30px 0;
+
+		header {
+			margin-bottom: 10px;
+			border: 0;
+			border-bottom: 1px solid #EEE;
+
+			&.no-border {
+				border: none;
+			}
+		}
+	}
+}
+
+/**
+ * PORTFOLIO
+ */
+#portfolio.carousel {
+
+	.carousel-inner {
+		.item {
+
+			img {
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+			}
+
+			.carousel-caption {
+				-webkit-border-bottom-left-radius: 5px;
+				-moz-border-bottom-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+
+				-webkit-border-bottom-right-radius: 5px;
+				-moz-border-bottom-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+		}
+	}
+}
+
+.row.portfolio {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	article {
+		header {
+			margin-bottom: 10px;
+			border: 0;
+			border-bottom: 1px solid #EEE;
+		}
+
+		.content {
+			h3 {
+				margin-top: 20px;
+				font-size: 16px;
+			}
+
+			p {
+				font-size: 12px;
+				text-align: justify;
+			}
+		}
+
+		&.top-margin {
+			margin-top: 20px;
+		}
+	}
+
+	img.screenshot {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+
+		&.left-margin {
+			margin-left: 50px;
+		}
+	}
+}
